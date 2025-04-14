@@ -1,0 +1,55 @@
+.lottery-container.lotofacil {
+    border: 2px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .lottery-container.lotofacil .title {
+    color: #930089;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .lottery-container.lotofacil .date {
+    color: #4c556c;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .lottery-container.lotofacil .concurso {
+    color: #4c556c;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .lottery-container.lotofacil .winners {
+    color: #0066b3;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .lottery-container.lotofacil .numbers {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .lottery-container.lotofacil .number {
+    background-color: #930089;
+    color: white;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
